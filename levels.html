@@ -1,38 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSL5D84Z');</script>
+<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Teach2Learn</title>
 </head>
-<body>
-    <header class="cabecalho"> 
+
+<body id="topo">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSL5D84Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="cabecalho">
         <div class="cabecalho__logotitulo">
-                <img id="logouniube" src="logouniube.png" alt="Logo da Uniube">
-                <h1>Teach2Learn</h1>
+            <img id="logosite" src="/imagens/logositet2l.png" alt="Logo da Uniube">
+            <h1>Teach2Learn</h1>
         </div>
+        <a href="https://uniube.br" target="_blank">
+            <img src="/imagens/teste.png" class="logouniube" alt="Logo Uniube"></a>
         <nav class="cabecalho__navegacao">
             <ul class="cabecalho__menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="levels.html">Levels</a></li>
                 <li><a href="fotos.html">Curiosities</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="contato.html">Talk to us</a></li>
+                <li><a href="links.html"> Support Links</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="nivel" id="paginaniveis">
-            <h2> The Beginner level is perfect for those who are starting to learn English.</h2>
-            <p> You will learn basic topics such as greetings, numbers, and family vocabulary.
-This level also includes simple challenges and tasks to help you practice, improve, and get ready for the next level. </p>
-        </div>
-        <img src="logosite.jpeg" alt="logo do site">
-       
+    <main class="pagina">
+         <div class="container-tradutor">
+    <button id="btnTraduzir" onclick="toggleTraducao()">Traduzir Página / Translate</button>
+</div>
+      <h2 class="subtitulo"> Levels </h2>
+        <section class="corpodapagina__quadros">
 
+           
+
+            <div class="corpodapagina__quadros__nivel">
+
+               <h3>Beginner</h3>
+                               <img src="/imagens/sla3v.png"  class="imagem_quadros" alt="Foto de uma menina ensinando">
+                    <p><span class="traduzivel" data-pt="O nível Iniciante é projetado para alunos que estão apenas começando sua jornada de aprendizado de inglês. Você explorará tópicos básicos como saudações, números e vocabulário de família. Através de desafios simples, você começará a ensinar pequenas ideias em inglês, construindo uma base sólida para o próximo nível.">The Beginner level is designed for students who are just starting their English learning journey.
+                    You will explore basic topics such as greetings, numbers and family vocabulary.
+                    Through simple challenges, you will begin to teach small ideas in English, building a strong foundation for the next level.
+                    </span></p>
+                    
+                    <a href="beginner.html" class="botao"> Start Beginner</a>
+            </div>
+            <div class="corpodapagina__quadros__nivel">
+                <h3>Intermediate</h3>
+                <img src="/imagens/sla2.png"  class="imagem_quadros" alt="Foto de uma menina ensinando">
+                    <p> <span class="traduzivel" data-pt="Este nível é para alunos que já compreendem o inglês básico e desejam aprimorar sua comunicação.
+Você praticará a explicação de ideias, o compartilhamento de opiniões e a narração de pequenas histórias em inglês.
+Ao ensinar esses tópicos, você desenvolverá confiança e se expressará com mais clareza."> This level is for students who already understand basic English and want to improve their communication.
+                    You will practice explaining ideas, sharing opinions and telling short stories in English.
+                    By teaching these topics, you will develop confidence and express yourself more clearly.
+                    </span></p>
+                    <a href="intermediate.html" class="botao"> Start Intermediate</a>
+
+            </div>
+            <div class="corpodapagina__quadros__nivel">
+                <h3>Advanced</h3>
+                <img src="/imagens/sla.png"  class="imagem_quadros" alt="Foto de uma menina ensinando">
+                <p> <span class="traduzivel" data-pt="O nível Avançado é para alunos que desejam falar inglês com confiança e clareza.
+Você praticará o ensino de conceitos, dando explicações e criando aulas completas em inglês.
+Ao ensinar outras pessoas, você aprimorará sua fluência, vocabulário e habilidades de comunicação.">  The Advanced level is for students who want to speak English with confidence and clarity.
+                You will practice teaching concepts, giving explanations and creating full lessons in English.
+                By teaching others, you will refine your fluency, vocabulary and communication skills.
+                </span></p>
+                <a href="advanced.html" class="botao"> Start Advanced</a>
+            </div>
+        
+       
+        </section> 
+        <div class="gotoquiz">  
+        <h3 id="tituloquiz">Make the quiz!</h3> 
+        <p> <span class="traduzivel" data-pt="Se você não sabe em que nível está, pode fazer o teste. Ele foi programado para te orientar."> If you don't know what level you are, you can make the quiz. His is programed for orientate you. </span></p> 
+        <a href="quiz.html" class="botao">Go to quiz</a>   
+        </div>
 
 
     </main>
+    <footer class="rodape"> 
+        <p> Daniela Silva de Freitas RA:5167295</p>
+         <a href="#topo" class="botao-topo" id="btntopo">Voltar ao início</a>
+    </footer>
     
 </body>
+<script src="scripts.js"></script>
+
 </html>
