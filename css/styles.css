@@ -959,6 +959,7 @@ html{
 
     .cabecalho__menu.active{
         display:flex;
+        flex-direction:column;
     }
 
     .corpodapagina{
