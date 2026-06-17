@@ -19,11 +19,13 @@ window.addEventListener("scroll", ()=>{
 });
 const form = document.getElementById("faleconoscoForm");
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
-    alert("Mensagem enviada com sucesso! Obrigada pela contribuição!");
-    form.reset();
-});
+if (form) {
+    form.addEventListener("submit", function(event){
+        event.preventDefault();
+        alert("Mensagem enviada com sucesso! Obrigada pela contribuição!");
+        form.reset();
+    });
+}
 
 
 function calcularNivel() {
