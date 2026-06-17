@@ -44,6 +44,7 @@ a{text-decoration: none;
     color: white;
     font-size: 32px;
     cursor: pointer;
+    margin-left: auto;
 }
 .cabecalho__navegacao{
    font-family: "Montserrat", sans-serif;
@@ -939,8 +940,9 @@ html{
     }
 
     .menu-toggle{
-        display:block;
-    }
+    display: block;
+    margin-left: auto;
+}
 
     .cabecalho__navegacao{
         width:100%;
